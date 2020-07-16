@@ -1,6 +1,12 @@
 import numpy as np 
 
+"""
+Creating Class of Logistic Regression which contains fit function (Computation of gradient descent, Cost function )
+in other terms fit function aims to Compute the Forward Propagation and the Backward Propagation 
 
+Finally we have Predict function, aims to predict the target 
+
+"""
 class LogisticRegression: 
     def __init__(self,lr=0.001,nb_iters=1000): 
         self.lr=lr
